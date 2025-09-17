@@ -19,7 +19,7 @@ cursor = conn.cursor()
 @app.route('/')
 def index():
     # Sample query
-    query = "SELECT * FROM myTable"
+     query = "SELECT * FROM myTable"
     cursor.execute(query)
     data = cursor.fetchall()
     return render_template('index.html', data=data)
