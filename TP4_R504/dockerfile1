@@ -9,5 +9,5 @@ RUN pip3 install --upgrade pip && \
 RUN mkdir -p /srv/templates
 
 COPY index.html /srv/templates/
-COPY app_1.py /srv/
-CMD ["flask","--app","/srv/app1","run","--host=0.0.0.0"]
+COPY app.py /srv/
+CMD ["flask","--app","/srv/app","run","--host=0.0.0.0"]
