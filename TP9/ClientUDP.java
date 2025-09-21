@@ -4,7 +4,7 @@ import java.net.*;
 public class ClientUDP {
     public static void main(String[] args) {
         try {
-            String s = "Ca dit quoi l'equipe";
+            String s = "iuqhrgijbckvbqrfbgmqekrvghvfsd vj er";
             byte[] data = s.getBytes();
 
             InetAddress adresse = InetAddress.getByName("localhost");
