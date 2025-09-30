@@ -5,10 +5,10 @@ app = Flask(__name__)
  
 # MySQL configuration
 db_config = {
-    'host': 'NOM-HOTE-SERVEUR',
+    'host': 'tp4-sql',
     'user': 'root',
     'password': 'foo',
-    'database': 'NOM-DE-LA-BDD'
+    'database': 'demosql'
 }
 
 # Initialize MySQL connection
@@ -22,11 +22,6 @@ def index():
     query = "SELECT * FROM myTable"
     cursor.execute(query)
     data = cursor.fetchall()
-    
-    # Close the cursor and connection
-    cursor.close()
-    conn.close()
-    
     return render_template('index.html', data=data)
 
 if __name__ == '__main__':
