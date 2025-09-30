@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>Demo sql query in table</title>
+</head>
+<body>
+<h1>TITRE</h1>
+Table:
+<table>
+{% for row in data %}
+<tr>
+    {% for item in row %}
+      <td>{{ item }}</td>
+    {% endfor %}
+</tr>
+{% endfor %}
+</table>
+</body>
+</html>
+
