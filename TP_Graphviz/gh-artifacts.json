@@ -1,0 +1,85 @@
+{
+  "total_count": 4,
+  "artifacts": [
+    {
+      "id": 4329651720,
+      "node_id": "MDg6QXJ0aWZhY3Q0MzI5NjUxNzIw",
+      "name": "result_graph",
+      "size_in_bytes": 6954,
+      "url": "https://api.github.com/repos/raphaR2p/graphes/actions/artifacts/4329651720",
+      "archive_download_url": "https://api.github.com/repos/raphaR2p/graphes/actions/artifacts/4329651720/zip",
+      "expired": false,
+      "digest": "sha256:f93483b78283e212547424b8a13d4f55d660838b10be51bb607c4b3fbc4cadde",
+      "created_at": "2025-10-21T15:04:57Z",
+      "updated_at": "2025-10-21T15:04:57Z",
+      "expires_at": "2026-01-19T15:03:13Z",
+      "workflow_run": {
+        "id": 18688315938,
+        "repository_id": 1080506628,
+        "head_repository_id": 1080506628,
+        "head_branch": "main",
+        "head_sha": "18c694a69f998a0a8d1c28c21b6dc43093cb2f98"
+      }
+    },
+    {
+      "id": 4329411544,
+      "node_id": "MDg6QXJ0aWZhY3Q0MzI5NDExNTQ0",
+      "name": "result_graph",
+      "size_in_bytes": 1071,
+      "url": "https://api.github.com/repos/raphaR2p/graphes/actions/artifacts/4329411544",
+      "archive_download_url": "https://api.github.com/repos/raphaR2p/graphes/actions/artifacts/4329411544/zip",
+      "expired": false,
+      "digest": "sha256:24c1f199ce479f3a97e368c8fea24f072ad4c17471e8c771ff0445c4ce665bd6",
+      "created_at": "2025-10-21T14:45:55Z",
+      "updated_at": "2025-10-21T14:45:55Z",
+      "expires_at": "2026-01-19T14:42:41Z",
+      "workflow_run": {
+        "id": 18687717199,
+        "repository_id": 1080506628,
+        "head_repository_id": 1080506628,
+        "head_branch": "main",
+        "head_sha": "0894076c58f9b36600e6dbe044116bdd03232998"
+      }
+    },
+    {
+      "id": 4329341810,
+      "node_id": "MDg6QXJ0aWZhY3Q0MzI5MzQxODEw",
+      "name": "result_graph",
+      "size_in_bytes": 1701,
+      "url": "https://api.github.com/repos/raphaR2p/graphes/actions/artifacts/4329341810",
+      "archive_download_url": "https://api.github.com/repos/raphaR2p/graphes/actions/artifacts/4329341810/zip",
+      "expired": false,
+      "digest": "sha256:a3be1b44fd783e1e789e2187ca30468a647d6cccb7f2765e9fdfad42fcdbafdf",
+      "created_at": "2025-10-21T14:40:24Z",
+      "updated_at": "2025-10-21T14:40:24Z",
+      "expires_at": "2026-01-19T14:39:58Z",
+      "workflow_run": {
+        "id": 18687635695,
+        "repository_id": 1080506628,
+        "head_repository_id": 1080506628,
+        "head_branch": "main",
+        "head_sha": "9ed0836857d985f3cc6ca70940917c8c61443ad6"
+      }
+    },
+    {
+      "id": 4329296460,
+      "node_id": "MDg6QXJ0aWZhY3Q0MzI5Mjk2NDYw",
+      "name": "(tmp)",
+      "size_in_bytes": 1701,
+      "url": "https://api.github.com/repos/raphaR2p/graphes/actions/artifacts/4329296460",
+      "archive_download_url": "https://api.github.com/repos/raphaR2p/graphes/actions/artifacts/4329296460/zip",
+      "expired": false,
+      "digest": "sha256:cef3f996a151697565c484f5d8d15f36de5f9793793da76458d0d440947e31f7",
+      "created_at": "2025-10-21T14:36:52Z",
+      "updated_at": "2025-10-21T14:36:52Z",
+      "expires_at": "2026-01-19T14:35:12Z",
+      "workflow_run": {
+        "id": 18687487947,
+        "repository_id": 1080506628,
+        "head_repository_id": 1080506628,
+        "head_branch": "main",
+        "head_sha": "368d9dc859d869d223c96a2ea6190417b46bc02d"
+      }
+    }
+  ]
+}

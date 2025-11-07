@@ -1,0 +1,32 @@
+graph {
+	node [style="filled", fillcolor="aqua", fontsize="20", fontcolor="red"];
+	edge [fontsize="24", fontcolor="white", color="red"];
+	layout=neato;
+	splines=true;
+	overlap=false;
+
+A [pos="10,5!"];
+B [pos="7,8!"];
+C [pos="7,4!"];
+D [pos="4,4!"];
+E [pos="5,1!"];
+F [pos="1,2!"];
+G [pos="2,6!"];
+H [pos="4,9!"];
+
+H--B [label="2"];
+B--A [label="1"];
+A--C [label="4"];
+C--E [label="3"];
+E--F [label="1"];
+F--G [label="6"];
+H--G [label="14"];
+B--G [label="4"];
+D--G [label="1"];
+D--F [label="3"];
+D--E [label="1"];
+D--C [label="1"];
+D--B [label="9"];
+B--C [label="2"];
+}
+
