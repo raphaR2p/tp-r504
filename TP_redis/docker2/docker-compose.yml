@@ -1,0 +1,17 @@
+services:
+  s_redis:
+    image: redis:latest
+
+  s_cons:
+    build:
+      context: .
+      dockerfile: Dockerfile_c
+    depends_on:
+      - s_redis
+
+  s_prod:
+    build:
+      context: .
+      dockerfile: Dockerfile_p
+    depends_on:
+      - s_redis
