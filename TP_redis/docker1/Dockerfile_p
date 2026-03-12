@@ -1,0 +1,5 @@
+FROM alpine:latest
+RUN apk add --no-cache bash redis
+COPY producer.sh /srv
+WORKDIR /srv
+CMD [ "bash","-c","./producer.sh" ]
